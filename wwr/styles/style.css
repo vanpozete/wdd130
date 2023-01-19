@@ -1,4 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quattrocento+Sans&display=swap');
+
+.home-title {
+    font-family: "Caveat", "Quattrocento Sans", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 
 nav, footer {
     text-align: center;
@@ -7,6 +14,7 @@ nav, footer {
 }
 
 a {
+    padding: 10px;
     font-size: 1em;
     color: #083D77;
     margin: 40px;
@@ -16,19 +24,24 @@ a {
 h1, h2 {
     text-align: center;
     color: steelblue;
+    margin: 0;
+
 }
 
 img {
+    padding: 25px;
     width: 50%;
     display: block;
     margin: 0 auto; 
-    border: 4px solid steelblue;
+    border: 4px solid rgb(46, 96, 138);
 
 }
 
-p {
+.msg p {
     text-align: center;
     padding: 10px;
+    font-family: "Caveat", "Quattrocento Sans", sans-serif;
+    font-size: .8em;
 }
 
 #active {
@@ -53,6 +66,7 @@ nav a {
 }
 
 #hero-msg h1, #hero-msg h4 {
+    font-family: "Caveat";
     margin: 0 auto;
 }
 
@@ -62,6 +76,7 @@ nav a {
 
 main section {
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 #background {
@@ -69,6 +84,8 @@ main section {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     background-color:  white;
 }
 
@@ -77,11 +94,17 @@ header {
 }
 nav a:hover {
     background-color:  white;
+    padding: 35px;
 }
 
 .book, .join {
     background-color:  white;
-    text-decoration: none
+    text-decoration: none;
+    font-family: "Quattrocento Sans";
+    font-size:  18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -94,17 +117,31 @@ nav a:hover {
 
 .msg {
     background-color:  white;
+    padding: 35px;
 }
 
 footer a {
-    background-color:  #BFCDE0;
     font-size: 1.5em;
     text-decoration: none
 }
 
-.logo {
-    width: 80px;
+footer {
+padding: 25px 50px;
+margin-top: 200px;
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.logo {
+    width: 100px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
 }
@@ -114,5 +151,26 @@ footer a {
 }
 
 footer p a:hover {
+    padding: 25px;
+    font-size: 20px;
+    margin: 20px auto;
     text-decoration: underline;
 } 
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 20px 0;
+
+}
+
+.card-img {
+    border: 10px solid rgb(236, 163, 67);
+    
+}
