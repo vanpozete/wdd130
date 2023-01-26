@@ -119,7 +119,6 @@ grid-column-gap: 40px;
   
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-row:1/3;
   height:300px;
 }
 
@@ -149,29 +148,27 @@ grid-column-gap: 40px;
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  width: 700px;
-  height: 400px;
+  
 }
 .red5 { 
-  width: 600px; 
+  width: 100%; 
   height: 100px; 
   background-color: red; 
 } 
 .green5 { 
-  float:left;
+  float: left;
   width: 200px; 
   height: 200px; 
   background-color: green; 
 
 } 
 .yellow5 {
-  width: 600px; 
-  /* height: 100px;  */
+  width: 100%; 
   background-color: gold; 
 
 } 
 .blue5 {
-  width: 600px; 
+  width: 100%; 
   height: 100px; 
   background-color: blue; 
 } 
@@ -179,18 +176,19 @@ grid-column-gap: 40px;
 .content6 {
   /* This is the parent of the activity 6 boxes. */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 500px;
-  height:500px;
-  z-index: -1;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(6, 100px);
+
+  
 }
 .red6 {
-  width: 100%; 
+  width: 100%;
   height: 100%; 
   background-color: red; 
   grid-column: 1/5;
   grid-row: 1/3;
+  z-index: -1
+  
 } 
 .blue6 {
   width: 100%; 
@@ -198,6 +196,7 @@ grid-column-gap: 40px;
   background-color: blue; 
   grid-column: 2/6;
   grid-row: 2/6;
+  z-index: -1
 } 
 .green6 {
   width: 100%; 
