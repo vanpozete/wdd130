@@ -1,50 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Raleway:wght@500&display=swap');
+
 
 
 header {
-    padding: 1em;
-    text-align: center;
-    color: white;
-    background-color:#396E94;
-    font-family:"Raleway";
-    font-size: 20px;
+    background-color:#4284b3;
+    font-family:'Nunito', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.logo{
+    margin: 5%;
 
+}
 
-.home-msg {
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+#intro{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main-img{
+    max-width: 100%;
+}
+
+h1{
+    font-family:'Nunito', sans-serif;
+    font-size: 75px;
+    color: #00BBB4;
+}
+
+p{
     text-align: center;
     padding: 10px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: .10em;
-    width: 75%
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    width: 0 auto;
+    
 
 }
 
 .content{
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(2, 100px) 
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    vertical-align: middle; 
 }
 
-.speakers-img{
-    width: 100%;
-    height: 100%; 
-    grid-column: 2/3;
-    grid-row: 1/2
+.content img {
+    max-width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+
 }
 
-.about-the-speakers
-    grid-column: 1fr;
-.pages{
-    display: grid;
-    grid-template-columns: ;
+.content p{
+    text-align: center;
+    padding: 40px;
+    color: #10B9B6;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
 }
+
 
 body {
     max-width: 100%;
     margin: 0 auto;
-    padding: 4em;
+    padding: 10px;
     font-size: 18px;
     text-align: center;
 }
+
+footer {
+    color: white;
+    background-color:#4284b3;
+    font-family:'Nunito', sans-serif;
+    font-size: 16px;
+    padding: 25px;
+    margin-top: 200px;
+    display: flex;
+   
+}
+
+.social-media img{
+    display: inline;
+    width: 7%;
+    margin: 1%;
+
+}
+
