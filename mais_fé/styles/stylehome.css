@@ -11,6 +11,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .logo{
@@ -21,6 +22,7 @@ header {
 nav a {
     color: white;
     text-decoration: none;
+    gap: 10%;
 
 }
 #intro{
@@ -62,14 +64,13 @@ p{
 
 }
 
-.content p{
+.content a{
     text-align: center;
     padding: 40px;
     color: #10B9B6;
-    align-items: center;
-    font-size: 30px;
+    font-size: 40px;
     text-decoration: none;
-    box-sizing: border-box;
+    vertical-align: middle;
 
 
 }
@@ -87,16 +88,21 @@ footer {
     color: white;
     background-color:#4284b3;
     font-family:'Nunito', sans-serif;
-    font-size: 16px;
-    padding: 25px;
-    margin-top: 200px;
-    display: flex;
-   
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 80px;
+ 
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 2%
 }
 
 .social-media img{
     display: inline;
-    width: 7%;
+    width: 5%;
     margin: 1%;
 
 }
