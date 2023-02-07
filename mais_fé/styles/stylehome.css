@@ -6,10 +6,8 @@ header {
     background-color:#4284b3;
     font-family:'Nunito', sans-serif;
     font-size: 30px;
-    padding: 5px;
     margin: 2%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     
 }
@@ -22,9 +20,10 @@ header {
 nav a {
     color: white;
     text-decoration: none;
-    gap: 10%;
-
+    display: inline-block
+    
 }
+
 #intro{
     width: 80%;
     margin: 0 auto;
@@ -36,7 +35,7 @@ nav a {
 
 h1{
     font-family:'Nunito', sans-serif;
-    font-size: 75px;
+    font-size: 77px;
     color: #00BBB4;
 }
 
