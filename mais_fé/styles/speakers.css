@@ -44,7 +44,7 @@ h1{
 
 .daniel img, .marie img, .natasha img, .carol img, .andre img{
     max-width: 60%;
-    padding: 5px;
+    padding: 10px;
     margin: 0 auto;
     grid-column:1/2;
     grid-row: 1/4;
@@ -52,7 +52,7 @@ h1{
 }
 
 .daniel h2, .marie h2, .natasha h2, .carol h2, .andre h2{
-    padding: 10%;
+    padding: 20px 130px 5px 160px;
     color: #1d98c9;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
@@ -62,7 +62,7 @@ h1{
 }
 
 .daniel p, .marie p, .natasha p, .carol p, .andre p{
-    padding: 2%;
+    padding: 5px 250px 5px 5px;
     color: #10B9B6;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;

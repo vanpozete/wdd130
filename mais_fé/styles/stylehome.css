@@ -64,14 +64,14 @@ p{
 
 .content img {
     max-width: 100%;
-    padding: 5px;
+    padding: 10px;
     margin: 0 auto;
 
 }
 
 .content a{
     font-family: 'Raleway', sans-serif;
-    padding: 25%;
+    padding: 50px;
     color: #10B9B6;
     font-size: 40px;
     text-decoration: none;
