@@ -3,6 +3,7 @@
 
 
 header {
+    max-width: 100%;
     background-color:#4284b3;
     font-family:'Nunito', sans-serif;
     font-size: 30px;
@@ -13,22 +14,20 @@ header {
 }
 
 .logo{
-    width: 40%;
-    padding: 5px 5px;
+    width: 25%;
+    padding: 5px;
 }
 
 #logo-home{
-        justify-self: center;
-        align-self: center;
+    justify-self: 0 auto;
+    align-self: 0 auto;
     }
 
 nav a{
     color: white;
     text-decoration: none;
     padding: 5px 5px;
-    margin-right: 70px;
-    
-    
+    margin-right: 70px;    
 }
 
 #intro{
@@ -52,32 +51,31 @@ p{
     font-family: 'Raleway', sans-serif;
     font-size: 27px;
     width: 0 auto;
-    
-
 }
 
 
 .content{
     display: grid;
+    place-content: center;
     grid-template-columns: 1fr 1fr;
-    gap: 5%;
-    vertical-align: middle; 
+    gap: 2%;
+
+  
 }
 
 .content img {
     max-width: 100%;
-    padding: 10px;
+    padding: 5px;
     margin: 0 auto;
 
 }
 
 .content a{
-    text-align: center;
     padding: 40px;
     color: #10B9B6;
     font-size: 40px;
     text-decoration: none;
-    vertical-align: middle;
+    
 }
 
 .content a:hover{
@@ -101,14 +99,16 @@ footer {
     font-family:'Nunito', sans-serif;
     font-size: 15px;
     padding: 5px;
-    margin-top: 80px;
- 
+    margin-top: 30px;
+
+
 }
 
 footer a{
     color: white;
     text-decoration: none;
     margin: 2%
+    
 }
 
 .social-media img{
