@@ -9,7 +9,7 @@ header {
     margin: 5px;
     display: flex;
     align-items: center;
-    
+       
 }
 
 .logo{
@@ -17,16 +17,16 @@ header {
     padding: 5px;
 }
 
-#logo-home{
-    justify-self: 0 auto;
-    align-self: 0 auto;
-    }
-
 nav a{
     color: white;
     text-decoration: none;
     padding: 5px 5px;
-    margin-right: 70px;    
+    margin-right: 80px;    
+}
+
+#intro{
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1{
@@ -45,31 +45,42 @@ h1{
 .daniel img, .marie img, .natasha img, .carol img, .andre img{
     max-width: 60%;
     padding: 10px;
-    margin: 0 auto;
+    margin: 10px;
     grid-column:1/2;
     grid-row: 1/4;
 
 }
 
 .daniel h2, .marie h2, .natasha h2, .carol h2, .andre h2{
-    padding: 20px 130px 5px 160px;
+    padding: 40px 130px 2px 180px;
     color: #1d98c9;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     text-decoration: none;
     grid-column:2/2;
-    grid-row: 1/3;
+    grid-row: 1/4;
 }
 
-.daniel p, .marie p, .natasha p, .carol p, .andre p{
-    padding: 5px 250px 5px 5px;
+.marie p, .natasha p, .andre p{
+    padding: 2px 230px 5px 5px;
     color: #10B9B6;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
     grid-column:2/2;
-    grid-row: 2/4;
+    grid-row: 2/3;
+}
+.daniel p, .carol p{
+    padding: 2px 200px 15px 5px;
+    color: #10B9B6;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    grid-column:2/2;
+    grid-row: 2/3;
+    margin-top: 10%;
 }
     
 
@@ -79,7 +90,7 @@ footer {
     font-family:'Nunito', sans-serif;
     font-size: 15px;
     padding: 5px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 footer a{
