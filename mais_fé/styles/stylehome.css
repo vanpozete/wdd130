@@ -40,7 +40,7 @@ nav a{
 }
 
 h1{
-    font-family:'Nunito', sans-serif;
+    font-family:'Raleway', sans-serif;
     font-size: 75px;
     color: #00BBB4;
 }
@@ -48,7 +48,7 @@ h1{
 p{
     text-align: center;
     padding: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 27px;
     width: 0 auto;
 }
@@ -60,7 +60,6 @@ p{
     grid-template-columns: 1fr 1fr;
     gap: 2%;
 
-  
 }
 
 .content img {
@@ -71,18 +70,12 @@ p{
 }
 
 .content a{
-    padding: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding: 25%;
     color: #10B9B6;
     font-size: 40px;
     text-decoration: none;
     
-}
-
-.content a:hover{
-    text-align: center;
-    margin-right: 1px;
-    padding: 5px;
-    border: 1px #10B9B6;
 }
 
 body {
