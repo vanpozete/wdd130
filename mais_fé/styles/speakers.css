@@ -42,22 +42,40 @@ h1{
     gap: 2%;
 }
 
-.daniel img, .marie img, .natasha img, .carol img, .andre img{
-    max-width: 60%;
+.daniel img, .marie img, .andre img{
+    width: 60%;
     padding: 10px;
     margin: 10px;
     grid-column:1/2;
     grid-row: 1/4;
-
 }
 
-.daniel h2, .marie h2, .natasha h2, .carol h2, .andre h2{
+.natasha img, .carol img{
+    width: 60%;
+    padding: 10px;
+    margin: 10px;
+    grid-column:2/2;
+    grid-row: 1/4;
+}
+
+
+.daniel h2, .marie h2, .andre h2{
     padding: 40px 130px 2px 180px;
     color: #1d98c9;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     text-decoration: none;
     grid-column:2/2;
+    grid-row: 1/4;
+}
+
+.natasha h2, .carol h2{
+    padding: 40px 130px 2px 180px;
+    color: #1d98c9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-decoration: none;
+    grid-column:1/2;
     grid-row: 1/4;
 }
 
@@ -68,9 +86,10 @@ h1{
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    grid-column:2/2;
-    grid-row: 2/3;
+    
 }
+
+
 .daniel p, .carol p{
     padding: 2px 200px 15px 5px;
     color: #10B9B6;
@@ -78,11 +97,19 @@ h1{
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    grid-column:2/2;
-    grid-row: 2/3;
     margin-top: 10%;
 }
+
+.daniel p, .marie p, .andre p{
+    grid-column:2/2;
+    grid-row: 2/3;
+}
     
+.natasha p, .carol p{
+    grid-column:1/2;
+    grid-row: 2/3;
+}
+
 
 footer {
     color: white;
@@ -91,12 +118,15 @@ footer {
     font-size: 15px;
     padding: 5px;
     margin-top: 20px;
+
 }
 
 footer a{
+    grid-column: 1/2; 
     color: white;
     text-decoration: none;
     margin: 2%
+    
     
 }
 
