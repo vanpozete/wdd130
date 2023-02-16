@@ -34,6 +34,7 @@ h1{
     font-size: 50px;
     color: #00BBB4;
     text-align: center;
+    margin: 30px;
 }
 
 .daniel, .marie, .natasha, .carol, .andre{
@@ -60,42 +61,44 @@ h1{
 
 
 .daniel h2, .marie h2, .andre h2{
-    color: #1d98c9;
+    color: #00BBB4;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     text-decoration: none;
     grid-column:2/2;
-    grid-row: 1/4;
+    grid-row: 2/4;
     text-align: center;
+    
 }
 
 .natasha h2, .carol h2{
-    color: #1d98c9;
+    color: #00BBB4;
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
     text-decoration: none;
-    grid-column:1/2;
-    grid-row: 1/4;
+    grid-column: 1/2;
+    grid-row: 2/4;
     text-align: center;
 }
 
 .marie p, .natasha p, .andre p{
-    color: #10B9B6;
+    color: #4284b3;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
+    margin: 50px;
     
 }
 
 
 .daniel p, .carol p{
-    color: #10B9B6;
+    color: #4284b3;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-    margin-top: 10%;
+    margin: 50px;
 }
 
 .daniel p, .marie p, .andre p{
@@ -108,6 +111,12 @@ h1{
     grid-row: 2/3;
 }
 
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 18px;
+}
 
 footer {
     color: white;
@@ -120,11 +129,9 @@ footer {
 }
 
 footer a{
-    grid-column: 1/2; 
     color: white;
     text-decoration: none;
     margin: 2%
-    
     
 }
 

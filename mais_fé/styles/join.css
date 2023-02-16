@@ -38,7 +38,7 @@ p{
     margin: 40px;
     font-family: 'Nunito', sans-serif;
     font-size: 27px;
-    color: #10B9B6;
+    color: #4284b3;
 }
 
 .subscribe{
@@ -61,9 +61,9 @@ p{
     font-size: 40px;
     text-decoration: none;
     text-align: center;
-    margin: 20px;
+    margin: 100px;
     grid-column: 2/2;
-    grid-row: 1/4;
+    grid-row: 3/4;
 
 }
 
@@ -73,20 +73,19 @@ p{
     font-size: 40px;
     text-decoration: none;
     text-align: center;
-    margin: 20px;
+    margin: 100px;
     grid-column: 2/2;
     grid-row: 3/4;
 
 }
 
-
 .subscribe p{
     font-family: "Nunito", sans-serif;
-    color: #10B9B6;
+    color: #4284b3;
     font-size: 25px;
     text-decoration: none;
     text-align: center;
-    margin: 20px;
+    margin: 150px;
     grid-column: 2/2;
     grid-row: 3/4;
 }
@@ -104,7 +103,6 @@ body {
     margin: 0 auto;
     padding: 10px;
     font-size: 18px;
-    text-align: center;
 }
 
 footer {
@@ -117,7 +115,6 @@ footer {
 }
 
 footer a{
-    grid-column: 1/2; 
     color: white;
     text-decoration: none;
     margin: 2%
