@@ -41,7 +41,7 @@ h1{
     text-align: center;
 }
 
-p{
+h3{
     text-align: center;
     margin: 45px;
     font-family: 'Nunito', sans-serif;
@@ -83,7 +83,7 @@ body {
     font-size: 18px;
 }
 
-footer h2{
+footer {
     color: white;
     background-color:#4284b3;
     font-family:'Nunito', sans-serif;
