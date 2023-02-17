@@ -32,7 +32,7 @@ h1{
     text-align: center;
 }
 
-p{
+h4{
     text-align: center;
     padding: 10px;
     margin: 40px;
@@ -112,6 +112,7 @@ footer {
     font-size: 15px;
     padding: 5px;
     margin-top: 20px;
+    text-align: center;
 
 }
 

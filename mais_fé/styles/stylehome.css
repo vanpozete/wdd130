@@ -31,7 +31,7 @@ nav a{
 
 #main-img{
     max-width: 100%;
-    margin: 5px;
+    margin-top: 5px;
 }
 
 h1{
@@ -90,6 +90,7 @@ footer {
     font-size: 15px;
     padding: 5px;
     margin-top: 20px;
+    text-align: center;
 
 }
 

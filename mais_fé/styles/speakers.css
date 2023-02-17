@@ -26,7 +26,7 @@ nav a{
 
 #intro{
     width: 90%;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 h1{
@@ -125,6 +125,7 @@ footer {
     font-size: 15px;
     padding: 5px;
     margin-top: 20px;
+    text-align: center;
 
 }
 
