@@ -24,6 +24,11 @@ nav a{
     margin: 30px;    
 }
 
+#intro{
+    width: 90%;
+    margin: 20px;
+} 
+
 h1{
     font-family:'Raleway', sans-serif;
     font-size: 60px;
