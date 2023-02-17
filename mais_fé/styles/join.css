@@ -6,24 +6,23 @@ header {
     background-color:#4284b3;
     font-family:'Nunito', sans-serif;
     font-size: 30px;
-    margin: 5px;
     display: flex;
-    align-items: center;   
+    align-items: center;
+    
 }
 
 .logo{
     width: 25%;
     padding: 5px;
+    margin: 10px;
 }
 
 nav a{
     color: white;
     text-decoration: none;
-    padding: 5px 5px;
-    margin-right: 80px;    
+    padding: 10px 10px;
+    margin: 30px;    
 }
-
-
 
 h1{
     font-family:'Raleway', sans-serif;
